@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="cadastro">
+            <form id="formulario">
+                <p id="reportError"></p>
+            <h1>Cadastre-se</h1>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required>
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+            <label for="nascimento">Nascimento</label>
+            <input type="date" name="nascimento" id="nascimento" required>
+            <br>
+            <div class="sex">
+                <label for="">Sexo</label><br>
+            
+                <input type="radio" name="sexo" id="fem" value="feminino">
+                <label for="fem">Feminino</label>
+            
+                <input type="radio" name="sexo" id="mas" value="masculino">
+                <label for="mas">Masculino</label>
+            
+                <input type="radio" name="sexo" id="nao" value="nao_dizer">
+                <label for="nao">Não dizer</label>
+            </div>
+            
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required autocomplete="email">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" required autocomplete="new-password">
+            <label for="csenha">Confirmar senha</label>
+            <input type="password" name="csenha" id="csenha" required autocomplete="new-password">
+            <br><br>
+            <input type="submit" value="Cadastrar" id="cadastrar">
+        </form>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

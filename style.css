@@ -1,0 +1,40 @@
+body{
+    background: rgb(192, 192, 192);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+input{
+    padding: 10px;
+    margin-bottom: 5px;
+    outline: none;
+    background: rgb(170, 170, 170);
+    color: white;
+    border: none;
+}
+form{
+    display: flex;
+   flex-direction: column;
+   width: 300px;
+   padding: 10px;
+   box-shadow: 5px 5px 5px black;
+   border-radius: 10px;
+   background: #00000050;
+   color: white;
+}
+.cadastro h1{
+    text-align: center;
+}
+#cadastrar{
+    padding: 10px;
+    width: 200px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+#reportError{
+    text-align: center;
+    padding: 10px;
+}
